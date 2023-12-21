@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "fullName": "Иванов Иван Иванович",
+    "username": "ivanov",
+    "isBlocked": false,
+    "registrationDate": "2023-01-01",
+    "lastLoginDate": "2023-01-10"
+  },
+  {
+    "id": 2,
+    "fullName": "Петров Петр Петрович",
+    "username": "petrov",
+    "isBlocked": true,
+    "registrationDate": "2023-02-15",
+    "lastLoginDate": "2023-02-20"
+  },
+  {
+    "id": 3,
+    "fullName": "Сидоров Сидор Сидорович",
+    "username": "sidorov",
+    "isBlocked": false,
+    "registrationDate": "2023-03-10",
+    "lastLoginDate": "2023-03-18"
+  },
+  {
+    "id": 4,
+    "fullName": "Александров Александр Александрович",
+    "username": "alexandrov",
+    "isBlocked": false,
+    "registrationDate": "2023-04-05",
+    "lastLoginDate": "2023-04-12"
+  },
+  {
+    "id": 5,
+    "fullName": "Егоров Егор Егорович",
+    "username": "egorov",
+    "isBlocked": true,
+    "registrationDate": "2023-05-20",
+    "lastLoginDate": "2023-05-25"
+  }
+]
