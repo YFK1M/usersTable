@@ -59,6 +59,7 @@ const UserTable = () => {
             <th onClick={() => handleSort('username')}>Username</th>
             <th onClick={() => handleSort('registrationDate')}>Registration Date</th>
             <th onClick={() => handleSort('lastLoginDate')}>Last Login Date</th>
+            <th onClick={() => handleSort('isBlocked')}>Blocked</th>
             <th>Actions</th>
           </tr>
         </thead>
@@ -69,6 +70,7 @@ const UserTable = () => {
               <td>{user.username}</td>
               <td>{user.registrationDate}</td>
               <td>{user.lastLoginDate}</td>
+              <td>{user.isBlocked ? 'Blocked' : 'Not Blocked'}</td>
               <td>
                 <button onClick={() => handleEditUser(user)}>Edit</button>
                 <button onClick={() => handleDeleteUser(user.id)}>Delete</button>
