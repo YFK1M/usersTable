@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { RootState } from '../../store'
 import { deleteUser, User } from '../../store/usersSlice'
 import UserFilter from '../UserFilter'
-import UserModal from '../UserModal';
+import UserModal from '../UserModal'
 import s from './index.module.sass'
 
 const UserTable = () => {
@@ -19,7 +19,7 @@ const UserTable = () => {
     (user) =>
       user.fullName.toLowerCase().includes(filter.toLowerCase()) ||
       user.username.toLowerCase().includes(filter.toLowerCase())
-  );
+  )
   
   const sortedUsers = [...filteredUsers].sort((a, b) => {
     if (!sortField) return 0
